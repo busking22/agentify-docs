@@ -7,19 +7,14 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "primary": "#1E47F6",
+    "light": "#6C86F9",
+    "dark": "#092ED3"
   },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
-  ],
+  "topbarLinks": [],
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "name": "Get Started for Free",
+    "url": "https://agentify.ai/auth"
   },
   "anchors": [
     {
@@ -30,18 +25,22 @@
     {
       "name": "Changelog",
       "icon": "list",
-      "url": "https://mintlify.com"
+      "url": "changelog"
     },
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/wxWqmg7b4D"
     }
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
+      "group": "Getting Started",
+      "pages": [
+        "documentation/introduction",
+        "documentation/quickstart",
+        "documentation/deploy"
+      ]
     },
     {
       "group": "API Documentation",
@@ -55,11 +54,18 @@
         "api-reference/endpoint/update",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        {
+          "group": "2023",
+          "pages": ["changelog/2023/0.1.0", "changelog/2023/0.2.0"]
+        }
+      ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://discord.gg/wxWqmg7b4D"
   }
 }
